@@ -189,9 +189,8 @@ fun Home() {
 
     // The background color. The value is changed by the current tab.
     val backgroundColor by animateColorAsState(
-        if (tabPage == TabPage.Home) Seashell else GreenLight,
-        label = "background color"
-    )
+        targetValue = if (tabPage == TabPage.Home) Seashell else GreenLight,
+        label = "background color")
 
     // The coroutine scope for event handlers calling suspend functions.
     val coroutineScope = rememberCoroutineScope()
