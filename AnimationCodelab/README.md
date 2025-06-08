@@ -11,7 +11,7 @@ In this codelab, you will learn how to use some Animation APIs in Jetpack Compos
 ![Screenshot](screenshots/app.png)
 
 ## License
-
+  
 ```
 Copyright 2021 The Android Open Source Project
 
