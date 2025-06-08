@@ -334,8 +334,9 @@ private fun EditMessage(shown: Boolean) {
             shadowElevation = 18.dp
         ) {
             Text(
-                text = stringResource(R.string.edit_message),
-                modifier = Modifier.padding(16.dp)
+                text = stringResource(R.string.edit),
+                modifier = Modifier
+                    .padding(start = 8.dp, top = 3.dp)
             )
         }
     }
